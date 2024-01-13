@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Issue Tracker</h1>
+    </header>
+
+    <main>
+        <section id="issueForm">
+            <h2>Create New Issue</h2>
+            <form id="newIssueForm">
+                <label for="issueName">Issue Name:</label>
+                <input type="text" id="issueName" required>
+                <label for="issueDescription">Description:</label>
+                <textarea id="issueDescription" required></textarea>
+                <button type="submit">Create Issue</button>
+            </form>
+        </section>
+
+        <section id="issuesList">
+            <h2>Issues</h2>
+            <ul id="issues"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
